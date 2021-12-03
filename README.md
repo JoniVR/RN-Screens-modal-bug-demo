@@ -1,11 +1,17 @@
-# Sample Snack app
+See:
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+https://github.com/software-mansion/react-native-screens/issues/1225
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+Running
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+1. install dependencies and start expo/metro
+```sh
+yarn install && yarn start
+```
+2. run iOS project
+3. Follow further reproduction in Github issue. 
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+**Important notes:**
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+* Can't run this inside snack because app.json is required to config the ability to switch light/dark mode.
+* Tested on iOS 15.0
