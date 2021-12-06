@@ -1,6 +1,12 @@
 {
   "expo": {
     "name": "StackIssue",
-    "userInterfaceStyle": "automatic"
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "be.jonivr.modalexample"
+    },
+    "ios": {
+      "bundleIdentifier": "be.jonivr.modalexample"
+    }
   }
 }
